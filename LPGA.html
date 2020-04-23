@@ -29,6 +29,20 @@
                     <td>Women's Network</td>
                     </tr>
                 </table>
+                      <h2> Javascript Confirm Box</h2>
+    	<button onclick="myFunction()">Click here to learn more about a player! </button>
+    	<p id="demo"></p>
+    	<script>
+    	function myFunction() {
+        	var txt;
+        	if (confirm("Click here to learn more !")){
+            	txt = "Inbee Park is a Professional golfer who has gone to the Olympics!";
+        	} else {
+            	txt = "You pressed Cancel!";
+        	}
+        	document.getElementById("demo").innerHTML = txt;
+    	}
+    	</script>
                 <h3><address>For more information, contact:
             <a href="https://www.lpga.com/lpga-foundation/scholarships">LPGA</a>
             Pace University <br>
