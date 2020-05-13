@@ -1,0 +1,239 @@
+body {
+    background-color: white;  
+  font-weight: 300;
+   
+}
+
+p {
+    color:black;
+}
+
+li {
+    color:black;
+}
+
+h1 {
+	color: #2E86C1;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #2E86C1;
+
+}
+img {
+    border-style: solid;
+    border-color: black;
+    border-width: ;
+}
+
+button {
+     border-style: solid;
+    border-color: black;
+    border-width: thick;  
+}
+
+#video-wrap {
+    float: right;
+margin: 0 20px 5px 0;
+}
+
+#text-wrap {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+
+#benefits-wrap {
+    float: right;
+}
+
+iframe {
+   border-style: solid;
+    border-color: black;
+    border-width: thick; 
+}
+
+.mainsection {
+    margin: auto;
+    width: 50%;
+    float: left;
+    padding-bottom: 50px
+}
+
+.sidesection {
+    float: right;
+    padding-right: 50px
+        
+}
+
+.btn {
+    font-weight: bold;
+    background-color: #0099ff;
+}
+
+footer {
+	position:absolute
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:80px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #00008B;
+	box-sizing:inherit
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: flow-root
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 100%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', sans-serif;
+	margin: 0;
+}
+  
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: darkblue;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#COVID19Updates {background-color: white;}
+#GirlsGolf {background-color: white;}
+#Tournaments {background-color: white;}
+#Photos {background-color: white;}
+
+<table bgcolor="white">
+
+
+* {box-sizing:border-box}
+
+* {
+  box-sizing: border-box;
+}
+
+ 
+.fling-minislide {width:900px; height:900px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+
