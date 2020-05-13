@@ -1,85 +1,244 @@
 <!DOCTYPE html>
 <html>
-<head><title>L.P.G.A.</title></head>
-    <body>
-    <link rel="stylesheet" href="project.css">
-            <center>
-               <big><h1>Ladies Professional Golf Association</h1></big>
-       <img src="logo-lpga.png">
-    <link rel="stylesheet" href="Tabs%20Content.css">
-        <link rel="stylesheet" href="tabs.js">
-        <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Girls Golf')">Girls Golf</button>
-  <button class="tablinks" onclick="openCity(event, 'Tournaments')">Tournaments</button>
-  <button class="tablinks" onclick="openCity(event, 'Photos')">Photos</button>
-</div>
-         <img src="IGPA Logo.jpg">
-        <p><a href="https://www.lpga.com/lpga-foundation"> 
-            <button class="btn">Foundation Link</button></a></p>
-        </center>
-           <H2><bold>ABOUT</bold></H2> 
-        <p>The Ladies Professional Gold Association (LPGA) is one of the longest-running women's professional sports associations in the world. Founded in 1950, the organization has grown from its roots as a playing tour into a nonprofit organization involved in every facet of golf. The LPGA Tour and the LPGA Professionals comprise the backbone of what has become the premier women's professional sports organization in the world today. The LPGA maintains a strong focus on charity through its tournaments, its grassroots junior and women's programs, and its LPGA Foundation. The LPGA is under the guidance of Commissioner Michael Whan and is headquartered in Daytona Beach, Fla. </p>
-         
-        <H2><bold>Main Goals</bold></H2>
-<p>The LPGA Foundation has four main goals:</p>
-          <ol>
+<head><title>L.P.G.A.</title>
+</head>
+<body>
+<link rel="stylesheet" href="project.css">
+<center>
+    <h1 style= "font-family:impact"><font size= "100pt">Ladies Professional Golf Association</font></h1>
+<img src="LPGA%20LOGO%202.png">          
+<p><a href="https://www.lpga.com/lpga-foundation"> 
+<button class="btn">Foundation Link</button></a></p>
+</center>
+
+<div>
+<h2 style= "font-family:impact"> Player Information</h2>
+<p><a href="https://www.lpga.com/players">
+   <button class="btn" style="height: 65px;width:100px">Click here to learn more about a player!</button>
+   </a></p>
+ </div>
+
+             
+<ul class="social icons">
+<a href="https://umbel.co/LLENy"><img src='facebook.png' height="30px" width="30px"></a>
+<a href="https://twitter.com/lpga"><img src='twitter.png' height="30px" width="30px"></a>
+<a href="http://instagram.com/lpga_tour"><img src='instagram%20icon.png' height="30px" width="30px"></a>
+</ul>
+
+<button style= "font-family:impact" class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button style= "font-family:impact" class="tablink" onclick="openPage('COVID19 Updates', this, 'orange')">COVID19 Updates</button>
+<button style= "font-family:impact" class="tablink" onclick="openPage('Girls Golf', this, 'green')" >Girls Golf</button>
+<button style= "font-family:impact" class="tablink" onclick="openPage('Tournaments', this, 'blue')">Tournaments</button>
+<button style= "font-family:impact" class="tablink" onclick="openPage('Photos', this, 'black')">Photos</button>
+
+<div id="Home" class="tabcontent">
+    <h2 style= "font-family:impact"> <font color="red">About</font></h2> 
+        <p style="border:7px; border-style: solid; border-color:red;">The Ladies Professional Gold Association (LPGA) is one of the longest-running women's professional sports associations in the world. Founded in 1950, the organization has grown from its roots as a playing tour into a nonprofit organization involved in every facet of golf. The LPGA Tour and the LPGA Professionals comprise the backbone of what has become the premier women's professional sports organization in the world today. The LPGA maintains a strong focus on charity through its tournaments, its grassroots junior and women's programs, and its LPGA Foundation. The LPGA is under the guidance of Commissioner Michael Whan and is headquartered in Daytona Beach, Fla. </p>
+           <div id="video-wrap">
+            <iframe width="550" height="450" src="https://www.youtube.com/embed/rDC31Xaf1QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+    
+
+<h2 style="font-family: impact"> <font color="red">Main Goals</font></h2>
+<div id="text-wrap"><p style="border:7px; border-style: solid; border-color:red;">The LPGA Foundation has four main goals:</p>
+          <ul style="border:7px; border-style: solid; border-color:red;">
            <li> to develop and maintain junior golf programs across the country
            <li> to develop and maintain scholarship programs for junior golfers
            <li> to maintain a financial assistance fund for those in the golf industry
-          <li>  and to conduct research and develop educational activities related to golf instruction
-         </li> </ol>
-        <div . class="mainsection">
-<h2>2020 ISPS Handa Vic Open</h2>
-    <ul>
-    <li>The ISPS Handa Vic Open is Australia’s fastest growing golf tournament, and the first professional event in the world where men and women play on the same course, at the same time, for equal prize money.
-    <li>The tournament took place between February 6 and February 8. The winner of the 2020 ISPS Handa Vic Open was: Hee Young Park.</li>
-            </ul>
-<h2> Player Information</h2>
-        <button onclick="myFunction()">Click here to learn more about a player! </button>
-    	<p id="demo"></p>
-    	<script>
-    	function myFunction() {
-        	var txt;
-        	if (confirm("Click here to learn more !")){
-            	txt = "Inbee Park is a Professional golfer who has gone to the Olympics!";
-        	} else {
-            	txt = "You pressed Cancel!";
-        	}
-        	document.getElementById("demo").innerHTML = txt;
-    	}
-    	</script>
+           <li> to conduct research and develop educational activities related to golf instruction
+           </li> 
+           </ul>
+    </div>
+</div>
+    
+    <div id="COVID19 Updates" class="tabcontent">
+        <h1 style="font-family: impact"> <font color="orange"> Coronavirus Updates for the LPGA </font></h1>
+        <h2 style="font-family: impact"> <font color="orange"> LPGA Targets Date To Restart 2020 Season </font></h2>
+        <p style="border:7px; border-style: solid; border-color:orange;">DAYTONA BEACH, Fla. (April 29, 2020) – Given the continued impact of the global COVID-19 pandemic and in collaboration with its partners, the LPGA Tour today is announcing updates to the remainder of its 2020 schedule in preparation for a safe and responsible return to competition.
 
-         <table border="5">
-                <tr>
-                    <th>Scholarships & Grants</th>
-                    <th>LPGA Leadership Academy</th>
-                    <th>LPGA USGA Girls Golf</th>
-                    <th>Partners</th>
-                    <th>Donate</th>
-                    </tr>
-                    <tr>
-                    <td>Tournaments</td>
-                    <td>Women's Network</td>
-                    </tr>
-                </table>
-        <h3>For more information, contact:
-        <a href="https://www.lpga.com/contact-us"><p>LPGA</p></a>
-        <p>or</p>
-        <address>Ladies Professional Golf Association<br>
-        100 International Golf Drive <br>
-         Daytona Beach, Florida 32124-1092<br>
-        </address> </h3>
-            
-            </div>
+The LPGA recently informed its athletes that it is currently targeting a restart of the 2020 LPGA Tour season in mid-July.</p>
+        <p><a href="https://www.lpga.com/news/2020/2020-29-april-schedule-update">
+   <button class="btn" style="height: 60px; width:100px; background-color: orange">Click here for the full article!</button>
+   </a></p>
+    
+        <h2 style="font-family: impact"> <font color="orange"> Updated USGA Statement On Coronavirus </font></h2>
+        <p style="border:7px; border-style: solid; border-color:orange;"> Given the recent CDC guidance and the evolving dynamics of the Coronavirus pandemic, the USGA announced today that it has canceled its first two 2020 championships, the U.S. Women's Amateur Four-Ball, originally scheduled for April 25-29 at Quail Creek Country Club in Naples, Fla., and the U.S. Amateur Four-Ball, originally scheduled for May 23-27 at Philadelphia (Pa.) Cricket Club. These championships will not be rescheduled in 2020.</p>
+        <p><a href="https://www.lpga.com/news/2020/2020-updated-usga-statement-on-coronavirus">
+   <button class="btn" style="height: 60px; width:100px; background-color: orange">Click here for the full article!</button>
+   </a></p>
         
-        <div . class= "sidesection">
+        <h2 style="font-family: impact"> <font color="orange"> 2020 Blue Bay LPGA Canceled Due To Health Concerns </font></h2>
+        <p style="border:7px; border-style: solid; border-color:orange;"> Given the current health concerns and significant travel restrictions put in place due to the coronavirus in China, the LPGA along with our partners in China have made the decision to cancel the 2020 Blue Bay LPGA, which was scheduled to take place March 5-8 on Hainan Island. </p>
+        <p><a href="https://www.lpga.com/news/2020/2020-blue-bay-announcement">
+   <button class="btn" style="height: 60px; width:100px; background-color: orange">Click here for the full article!</button>
+   </a></p>
+        
+    </div>
+    
+<div id="Girls Golf" class="tabcontent">
+<img src="littlegirlsbigdreams.jpg" height="400px" width="1150px">
+    <h2 style="font-family: impact"> <font color="green">Girls Golf</font></h2>
+<p style="border: 7px; border-style: solid; border-color:green;">We empower girls through the game of golf and inspire them to dream BIG…
+LPGA*USGA Girls Golf (Girls Golf) is the only national junior golf program that specializes in providing girl-friendly environments for juniors to learn the game of golf. We’re the experts in making the game of golf fun, and we teach more than just stance and swing; we teach girls valuable life skills like confidence and perseverance.
 
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/rDC31Xaf1QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        
-        <div . class = "footer">
-   
+Each of our 500 Girls Golf sites help prepare girls ages 6 – 17 for a lifetime of enjoyment of the game while also inspiring them to feel confident, build positive self-esteem and live active and healthy lives through The Five E’s of Girls Golf.
+
+We’re on a mission to change the face of the game . . . join the movement and help us inspire even more girls through golf! #LittleGirlsBIGDreams</p> 
+    <p><a href="https://apps.apple.com/us/app/lpga-usga-girls-golf/id1445447729?ls=1">
+        <img alt="Qries" src="GG20-WEBADST---App-Promo---728x90.jpg" height="70px" width="400px"></a></p> 
+<p>The LPGA*USGA Girls Golf App is for site directors, parents of members, and volunteers who belong to one of our many sites. *The app is only available on mobile phones.</p>
+    <div id="benefits-wrap"><h2 style="font-family: impact"> <font color="green"> Benefits of the App</font></h2>
+    <ol style="border: 7px; border-style: solid; border-color: green;">
+    <li>Signing up on the app serves as your national Girls Golf membership registration
+    <li>Free mobile access to your site's webpage
+    <li>Easier communication with your local site
+    <li>Faster event registration process
+    <li>Ability to pay for events by phone
+    <li>Preferred access to national events, news, and merchandise
+    </li>
+    </ol>
         </div>
+</div>
+
+    
+<div id="Tournaments" class="tabcontent">
+    <h2 style= "font-family:impact"> <font color="blue">Tournaments</font></h2>
+  <p> <table border="4" black;>
+      <table style="border: 7px; border-style: solid; border-color: blue;" "background-color: #FFFFFF;">
+            <tr>
+            <tr style="background-color: lightgoldenrodyellow;">
+                <th>Date</th>
+                <th>Tournament</th>
+                <th>Defending Champion</th>
+                </tr>
+                <tr>
+                <tr style="background-color: whitesmoke;">
+                <td>May 21-24</td>
+                <td>Pure Silk Championship presented By Visit Williamsburg - Canceled
+                    Williamsburg, VA
+                    Purse: $1,300,000
+                    Race to the CME Globe: 500 Points</td>
+                <td>Bronte Law <img src="law_bronte_2017_hs_470x486.jpg"></td>
+                </tr>
+                <tr>
+                <tr style="background-color: whitesmoke;">
+                <td>Jul 15-18</td>
+                <td>Dow Great Lakes Bay Invitational    
+                    Midland, MI
+                    Purse: $2,300,000
+                    Race to the CME Globe: 400 Points</td>
+                <td>Clanton/Suwannapura <img src="clanton-suwannapura.jpg"></td>
+                </tr>
+                <tr>
+                <tr style="background-color: whitesmoke;">
+                <td>Jul 23-26</td>
+                <td>Marathon Classic presented by Dana
+                    Sylvania, OH
+                    Purse: $2,000,000
+                    Race to the CME Globe: 500 Points</td>
+                <td>Sei Young Kim <img src="kim_sei_young-2016_470x486.jpg"></td>
+                </tr>
+                <tr>
+                <tr style="background-color: whitesmoke;">
+                <td>Jul 31-02</td>
+                <td>ShopRite LPGA Classic Presented by Acer
+                    Galloway, NJ
+                    Purse: $2,000,000
+                    Race to the CME Globe: 500 Points</td>
+                <td>Lexi Thompson <img src="thompson-lexi-hs-276x273.png"></td>
+                </tr>
+                </table>
+        <p><a href="https://www.kingsmill.com/lpga-championship/tickets/"> 
+            <button class="btn" style="height:50px;width=50px">BUY TICKETS!</button></a></p></table>
+</div>
+
+<div id="Photos" class="tabcontent">
+    <h2 style= "font-family:impact"> <font color="black">Photos</font></h2>
+   
+    <table style="border: 7px; border-style: solid; border-color: blue;" "background-color: #FFFFFF;" align="right">
+            <tr>
+            <tr style="background-color: aliceblue;">
+                <th>#DriveOn</th>
+                </tr>
+                <tr>
+                <tr style="background-color: aliceblue;">
+                <td><p><a href="https://www.lpga.com/videos/2020/celine-boutier-shares-her-journey-to-the-lpga-tour"><img alt="Qries" src="celine%20boutier%20.jpg" height="100px" width="250px" align="right">
+                </a></p>
+                <p><p style="text-align: right">Celine Boutier #DRIVEON</p></td>         
+                </tr>
+                <tr>
+                <tr style="background-color: aliceblue;">
+                <td><p><a href="https://www.lpga.com/videos/2020/gaby-lopez-aspires-to-inspire">
+                <img alt="Qries" src="gaby%20lopez.jpg" height="100px" width="250px" align="right">
+                </a></p>
+                <p><p style="text-align: right">Gaby Lopez #DRIVEON</p>
+                </tr>
+                <tr>
+                <tr style="background-color: aliceblue;">
+                <td><p><a href="https://www.lpga.com/videos/2020/hannah-green-driveon-spot">
+                <img alt="Qries" src="Hannah%20Green.jpg" height="100px" width="250px" align="right">
+                </a></p>
+                <p><p style="text-align: right">Hannah Green #DRIVEON</p>
+                </tr>
+                </table> 
+    
+<div class="fling-minislide">
+  <img src="alexm_1206559796.jpg" alt="Slide 4" />
+  <img src="greenh_1206348702.jpg" alt="Slide 3" />
+  <img src="parki_1206587952.jpg" alt="Slide 2" />
+  <img src="choa_1206369853.jpg" alt="Slide 1" />
+</div>
+</div>
+    
+<footer>
+           <footer class="footer-distributed">
  
-    </body>
-</html>
+			<div class="footer-left">
+            <h3><span>For more information, contact:</span></h3>
+            <p class="footer-company-name">© Ladies Professional Golf Association Ltd.</p>
+			</div>
+            <div class="footer-center">
+            <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>100 International Golf Drive</span>
+						  Daytona Beach, Florida 32124-1092</p>
+            </div>
+            <div>
+            <i class="fa fa-phone"></i>
+            <p>(386) 274-6200 </p>
+            </div>
+            <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:foundation.scholarships@lpga.com">LPGAFoundationLPGA.com</a></p>
+                </div>
+            </div>
+
+    <script>
+    function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+  }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();</script>
+    </footer>
+    </footer>
+   </body>
+   </html>
+
